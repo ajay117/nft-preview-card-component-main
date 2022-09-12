@@ -22,7 +22,6 @@ body {
   height: 100%;
   font-family: "Outfit", sans-serif;
   background-color: var(--dark-blue-2);
-  /* background-color: hsl(217, 54%, 11%); */
 }
 
 body {
@@ -98,7 +97,7 @@ hr {
 }
 
 .block {
-    display: block;
+  display: block;
 }
 
 .icon {
@@ -107,7 +106,7 @@ hr {
 }
 
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 /* || Attribution  */
