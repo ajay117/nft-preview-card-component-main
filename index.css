@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --dark-blue-1: hsl(216, 50%, 16%);
+  --dark-blue-2: hsl(217, 54%, 11%);
+  --dark-blue-3: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--dark-blue-2);
+  /* background-color: hsl(217, 54%, 11%); */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  color: var(--soft-blue);
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+hr {
+  border-color: hsl(215, 32%, 27%);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 375px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.box {
+  border-radius: 15px;
+  background-color: var(--dark-blue-1);
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1.1px solid var(--white);
+  background-image: url("./images/image-avatar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-cyan {
+  color: var(--cyan);
+}
+
+.block {
+    display: block;
+}
+
+.icon {
+  width: 18px;
+  margin-right: 7px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* || Attribution  */
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  color: var(--white);
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
